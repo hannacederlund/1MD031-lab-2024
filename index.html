@@ -1,101 +1,13 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>
-        Hamburger restaurant
-    </title>
-    <link rel="stylesheet" type="text/css" href="public/css/style.css">
-</head>
-<body>
-    <header>
-        <h1>Welcome to BurgerOnline!</h1>
-    </header>
-    <main>
-    <br />
-    <section id="BurgerSelect">
-        <h3>Select your burger</h3>
-        <p>Here you can choose burgers after you liking</p>
-        <div class="Burgers">
-            <div class="Burger a">
-                <h4>Cheeseburger</h4>
-                <img src="/img/Burger1.png" width="300">
-                <ul class="Allergies">
-                    <li>Gluten</li>
-                    <li>Laktos</li>
-                </ul>
-            </div>
-
-            <div class="Burger b">
-                <h4>Chips-burger</h4>
-                <img src="/img/Burger2.png" width="300">
-                <ul class="Allergies">
-                    <li>Gluten</li>
-                    <li>Salad</li>
-                </ul>
-            </div>
-            <div class="Burger c">
-                <h4>Original-burger</h4>
-                <img src="/img/Burger3.png" width="300">
-                <ul class="Allergies">
-                    <li>Gluten</li>
-                    <li>Laktos</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section id="ContactInfo">
-        <h3>Contact information</h3>
-        <p> Write your contact information here</p>
-        <form>
-            <p>
-                <label for="firstname"></label><br>
-                <input type="text" id="firstname" name="fn" required="required" placeholder="First name">
-            </p>
-            <p>
-                <label for="lastname">Last</label><br>
-                <input type="text" id="lastname" name="ln" placeholder="Last name">
-            </p>
-            <p>
-                <label for="email">Last</label><br>
-                <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
-            </p>
-            <p>
-                <label for="street">Last</label><br>
-                <input type="text" id="street" name="st" required="required" placeholder="Street">
-            </p>
-            <p>
-                <label for="housenumber">Last</label><br>
-                <input type="number" id="housenumber" name="hn" required="required" placeholder="House number">
-            </p>
-            <p>
-                <label for="payment">Payment Options</label><br>
-                <select id="payment" name="po">
-                    <option selected>Credit Card</option>
-                    <option>Cash</option>
-                    <option>Swish</option>
-                </select>
-            </p>
-            <p>
-                <label>Gender:</label><br>
-
-                <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label><br>
-
-                <input type="radio" id="female" name="gender"  value="female">
-                <label for="female">Female</label><br>
-
-                <input type="radio" id="none" name="gender"  value="none" checked>
-                <label for="none">None</label><br>
-            </p>
-        </form>
-    </section>
-    <div style="text-align: center; margin-top: 30px;">
-        <button type="submit" id="orderButton" style="background-color: white; border: 2px solid; padding:10px 20px; border-radius: 10px; cursor: pointer; gap: 10px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); font-size: 16px; display: inline-flex; align-items: center; gap; 10px">
-            <img src="/img/CheckButton.png" alt="Send Order" width ="30" height="30">
-            Send info
-        </button>
-    </div>
-    <meta charset="utf-8"/>
-    </main>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

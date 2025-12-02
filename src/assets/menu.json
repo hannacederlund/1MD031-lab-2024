@@ -1,21 +1,21 @@
 [{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "CheeseBurger",
+    "kCal": 300,
+    "url": "img/Burger3.png",
+    "lactose": true,
+    "gluten": true
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "ChipsBurger",
+    "kCal": 400,
+    "url": "img/Burger2.png",
+    "lactose": true,
+    "gluten": true
 },
 {
-    "name": "Veggie Bliss", 
+    "name": "DoubleCheese",
     "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "url": "img/Burger1.png",
+    "lactose": true,
+    "gluten": true
 }]
